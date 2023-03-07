@@ -1,0 +1,67 @@
+.register_page{
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register_card{
+    width: 60%;
+    height: 80%;
+    background: #fff;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 7px 53px 11px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0px 7px 53px 11px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 7px 53px 11px rgba(0, 0, 0, 0.33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.register_input{
+    background: #F7F7F7;
+    border: 1px solid #8F8F8F;
+    border-radius: 8px;
+    // padding: 12px 40px;
+    width: 138px;
+    height: 38px;
+    padding-left: 15px;
+    margin-top: 24px;
+}
+.register_form{
+    width: 40%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+        width: 380px;
+        height: 38px;
+}
+.register_ratio{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.register_btnbox{
+width: 100%;
+margin-top: 40px;
+}
+.register_btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    background: blue;
+    
+}
+.register_btn {
+    color: white;
+}

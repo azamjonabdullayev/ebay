@@ -1,0 +1,16 @@
+.navbar-footer-list {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+
+
+a{
+    color: #000;
+    font-size: 16px;
+}
+}
+.active{
+    border-bottom:3px solid ;
+    padding-bottom: 5px;
+}

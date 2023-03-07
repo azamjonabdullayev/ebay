@@ -1,0 +1,48 @@
+.navbar-middle {
+    display: flex;
+    justify-content: space-between;
+    height: 97px;
+    list-style-type: none;
+    align-items: center;
+    width: 100%;
+}
+.navbar_logobox{
+    width: 10%;
+}
+.navbar_form{
+    width: 60%;
+    position: relative;
+    border: 1px solid;
+}
+.fa-search{
+    font-size: 20px;
+    color: gray;
+    position: absolute;
+    top: 27%;
+    left: 5px;
+}
+.navbar_search{
+    width: 80%;
+    height: 43px;
+    padding-left: 30px;
+    font-size: 17px;
+    color: #767676;
+    border: none;
+    border-right: 1px solid #767676;
+    outline: none;
+}
+.navbar_search::placeholder{
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #767676;
+}
+.navbar_btn a{
+    padding: 14px 61px;
+    background: blue;
+    color: white;
+}
+.navbar_disablet{
+    font-size: 14px;
+    color: #767676;
+}
