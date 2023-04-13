@@ -3,7 +3,6 @@ import call from "../assets/Vector.svg";
 import basket from "../assets/basket.svg";
 import './NavbarHeader.scss';
 import { NavLink, Link } from 'react-router-dom';
-import { isToken } from 'typescript';
 
 
 
